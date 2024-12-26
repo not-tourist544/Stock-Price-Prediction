@@ -1,6 +1,5 @@
 # 📈 Predicting Stock Prices using LSTM-CNN Model
 
-![Project Banner](./assets/banner.jpg)
 
 Welcome to the repository for the **Deep Learning Project** on stock price prediction using a **Feature Fusion LSTM-CNN Model**. This project is based on the research paper [*"Forecasting Stock Prices with a Feature Fusion LSTM-CNN Model Using Different Representations of the Same Data"*](#). 
 
@@ -34,7 +33,6 @@ This project implements and evaluates a hybrid **LSTM-CNN model** for forecastin
 ### 📊 Models
 
 #### 1. **LSTM Model**
-![LSTM Architecture](./assets/lstm_model.jpg)
 
 - **Architecture**: Single LSTM layer with 64 units followed by dense layers.
 - **Evaluation Metrics**: 
@@ -43,7 +41,7 @@ This project implements and evaluates a hybrid **LSTM-CNN model** for forecastin
   - RMSE: `1.1163`
 
 #### 2. **SC-CNN Model**
-![SC-CNN Architecture](./assets/sc_cnn_model.jpg)
+
 
 - **Architecture**: Conv1D layer, MaxPooling, Flatten, and Dense layers.
 - **Evaluation Metrics**:
@@ -52,7 +50,7 @@ This project implements and evaluates a hybrid **LSTM-CNN model** for forecastin
   - RMSE: `0.2040`
 
 #### 3. **Fusion Model**
-![Fusion Model Architecture](./assets/fusion_model.jpg)
+
 
 - **Inputs**: Stock and candlestick bar time series.
 - **Challenges**: Initial loss values were high, requiring refinement.
@@ -103,16 +101,5 @@ The project successfully replicated and extended the research findings, demonstr
 | Name               | Contribution                                               |
 |---------------------|-----------------------------------------------------------|
 | **R. Sanaatan**    | Replication of research paper, individual models, data visualization, experimentation, and summary. |
-| **Bodhisattwa Dhara** | Refinement, architecture evaluation, and comparative analysis. |
 
 ---
-
-## 📂 Repository Structure
-
-```plaintext
-├── assets/                   # Images and visualizations
-├── data/                     # Dataset (if applicable)
-├── models/                   # Model architectures and training scripts
-├── notebooks/                # Jupyter Notebooks for experiments
-├── results/                  # Evaluation metrics and plots
-└── README.md                 # Project Documentation
