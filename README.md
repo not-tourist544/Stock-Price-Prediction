@@ -61,7 +61,7 @@ This project implements and evaluates a hybrid **LSTM-CNN model** for forecastin
 
 ## 📈 Data Visualization
 
-![Data Visualization](.plots/Screenshot 2024-12-26 233229.png)
+(.plots/Screenshot 2024-12-26 233229.png)
 
 - **Price Plot**: Historical performance of the stock.
 - **Daily Change and Volume**: Market dynamics.
